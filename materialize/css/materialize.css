@@ -2163,6 +2163,8 @@ html {
  */
 body {
   margin: 0;
+  background-color: #372B47;
+  color:#fff;
 }
 
 /**
@@ -4744,14 +4746,17 @@ small {
 }
 
 .card {
+  width: 700px;
+  height: 600px;
   position: relative;
   margin: 0.5rem 0 1rem 0;
-  background-color: #fff;
+  background-color: #000;
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
-  border-radius: 2px;
+  border-radius: 5px;
+
 }
 
 .card .card-title {
@@ -5172,7 +5177,8 @@ small {
   height: 36px;
   line-height: 36px;
   padding: 0 16px;
-  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 15px;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
 }
@@ -6127,9 +6133,14 @@ label {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
   justify-content: center;
   align-items: center;  
+  background-color: #372B47;
+}
+#button-submit{
+  background-color: #651fff;
+
 }
 
 /* Text inputs */
