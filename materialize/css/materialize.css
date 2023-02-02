@@ -6073,13 +6073,6 @@ body.keyboard-focused .dropdown-content li:focus {
   will-change: opacity;
 }
 
-.center-align {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .materialbox-caption {
   position: fixed;
   display: none;
@@ -6126,6 +6119,17 @@ label {
 }
 ::placeholder {
   color: #d1d1d1;
+}
+
+
+/*wrapper*/
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
 }
 
 /* Text inputs */
