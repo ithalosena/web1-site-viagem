@@ -2818,8 +2818,8 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 1050px;
-  width: 1920px;
+  height: 2000px;
+  width: 1200px;
 }
 
 .parallax-container .parallax {
