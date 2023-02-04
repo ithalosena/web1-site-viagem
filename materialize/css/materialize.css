@@ -2163,8 +2163,6 @@ html {
  */
 body {
   margin: 0;
-  background-color: #372B47;
-  color:#fff;
 }
 
 /**
@@ -2818,8 +2816,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 2000px;
-  width: 1200px;
+  height: 500px;
 }
 
 .parallax-container .parallax {
@@ -4746,17 +4743,14 @@ small {
 }
 
 .card {
-  width: 700px;
-  height: 600px;
   position: relative;
   margin: 0.5rem 0 1rem 0;
-  background-color: #000;
+  background-color: #fff;
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
-  border-radius: 5px;
-
+  border-radius: 2px;
 }
 
 .card .card-title {
@@ -5177,8 +5171,7 @@ small {
   height: 36px;
   line-height: 36px;
   padding: 0 16px;
-  margin-top: 20px;
-  margin-left: 15px;
+  text-transform: uppercase;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
 }
@@ -6127,22 +6120,6 @@ label {
   color: #d1d1d1;
 }
 
-
-/*wrapper*/
-.wrapper {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;  
-  justify-content: center;
-  align-items: center;  
-  background-color: #372B47;
-}
-#button-submit{
-  background-color: #651fff;
-
-}
-
 /* Text inputs */
 input:not([type]),
 input[type=text]:not(.browser-default),
@@ -6159,7 +6136,7 @@ input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid #651fff;
+  border-bottom: 1px solid #9e9e9e;
   border-radius: 0;
   outline: none;
   height: 3rem;
@@ -6175,7 +6152,6 @@ textarea.materialize-textarea {
   transition: border .3s, -webkit-box-shadow .3s;
   transition: box-shadow .3s, border .3s;
   transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
-  color:#fff;
 }
 
 input:not([type]):disabled, input:not([type])[readonly="readonly"],
@@ -6249,7 +6225,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #c2185b;
+  border-bottom: 1px solid #26a69a;
   -webkit-box-shadow: 0 1px 0 0 #26a69a;
           box-shadow: 0 1px 0 0 #26a69a;
 }
@@ -8510,19 +8486,10 @@ input[type=range]::-ms-thumb {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s,
- visibility 0s 1s,
- -webkit-transform .3s;
-  transition: opacity .3s,
- visibility 0s 1s,
- -webkit-transform .3s;
-  transition: opacity .3s,
- transform .3s,
- visibility 0s 1s;
-  transition: opacity .3s,
- transform .3s,
- visibility 0s 1s,
- -webkit-transform .3s;
+  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
+  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
+  transition: opacity .3s, transform .3s, visibility 0s 1s;
+  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8575,19 +8542,10 @@ input[type=range]::-ms-thumb {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s,
- visibility 0s,
- -webkit-transform .3s;
-  transition: opacity .3s,
- visibility 0s,
- -webkit-transform .3s;
-  transition: opacity .3s,
- transform .3s,
- visibility 0s;
-  transition: opacity .3s,
- transform .3s,
- visibility 0s,
- -webkit-transform .3s;
+  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
+  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
+  transition: opacity .3s, transform .3s, visibility 0s;
+  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
   z-index: -1;
 }
 
