@@ -4,46 +4,45 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
   <body>
+    <!--Navbar-->
     
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a href="planets/planet01.html">Planet 01</a></li>
-      <li><a href="planets/planet02.html">Planet 02</a></li>
-      <li><a href="planets/planet03.html">Planet 03</a></li>
-      <li><a href="planets/planet04.html">Planet 04</a></li>
-      <li><a href="planets/planet05.html">Planet 05</a></li>
-      <li><a href="planets/planet06.html">Planet 06</a></li>
-    </ul>
-    <nav> 
-      <div class="nav-wrapper deep-purple accent-3">
-        <a href="#!" class="brand-logo-4">Planet 01</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#"><i class="material-icons">refresh</i></a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Home</a></li>
-          <li><a href="about.html"><i class="material-icons left">home</i>Sobre</a></li>
-          <li><a href="contact.html"><i class="material-icons left">home</i>Contato</a></li>
-          <li><a class="dropdown-trigger" href="planet.html" data-target="dropdown1"><i class="material-icons left">home</i>Destinos<i class="material-icons right">arrow_drop_down</i></a></li>
-        </ul>
-      </div>
-      <div class="nav-content deep-purple accent-3">
-        <span class="nav-title"></span>
-        <a class="btn-floating btn-large halfway-fab waves-effect waves-light purple">
-          <i class="material-icons">add</i>
-        </a>
-      </div>
-    </nav>
+      <ul id="dropdown1" class="dropdown-content purple darken-4">
+        <li><a href="planet01.html"><span class="white-text text-darken-2"><i class="material-icons left">filter_1</i>Planet 01</span></a></li>
+        <li><a href="planet02.html"><span class="white-text text-darken-2"><i class="material-icons left">filter_2</i>Planet 02</span></a></li>
+        <li><a href="planet03.html"><span class="white-text text-darken-2"><i class="material-icons left">filter_3</i>Planet 03</span></a></li>
+        <li><a href="planet04.html"><span class="white-text text-darken-2"><i class="material-icons left">filter_4</i>Planet 04</span></a></li>
+        <li><a href="planet05.html"><span class="white-text text-darken-2"><i class="material-icons left">filter_5</i>Planet 05</span></a></li>
+        <li><a href="planet06.html"><span class="white-text text-darken-2"><i class="material-icons left">filter_6</i>Planet 06</span></a></li>
+      </ul>
+      <div class="nav-wrapper"></div>
+      <nav class="navbar-fixed black"> 
+          <a href="../index.html" class="responsive-img"><img src="../img/logo.png" alt="" style="height: 110%;"></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="../about.html"><i class="material-icons left">recent_actors</i>Sobre</a></li>
+            <li><a href="../contact.html"><i class="material-icons left">streetview</i>Contato</a></li>
+            <li><a class="dropdown-trigger" data-target="dropdown1"><i class="material-icons left">tonality</i>Destinos<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <div class="bg-pattern">
+        <div class="slider fullscreen"><img class="bg-image" src="img/background.jpg" style= "height: 100%; width: 100%;"></div>
+      <!-- <div class="slider fullscreen"><img class="bg-image" src="img/background.jpg" style= "height: 100%; width: 100%;"></div> -->
+    </div>
+
+  
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-      $(".dropdown-trigger").dropdown();
-    </script>
+    <script src="materialize/js/materialize.js"></script>
+    <!-- Custon JS-->
+    <script src="materialize/js/person.js"></script>
   </body>
 </html>
