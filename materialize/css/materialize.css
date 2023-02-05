@@ -2162,7 +2162,10 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0;
+  background-image: url(../img/background_hyperspace.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Exo', sans-serif;
 }
 
 /**
@@ -4463,7 +4466,7 @@ nav .input-field label.active i {
 
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  height: 70px;
   z-index: 997;
 }
 
@@ -5911,7 +5914,7 @@ body.keyboard-focused .dropdown-content li:focus {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.sidenav .collapsible-header i,
+.sideb .collapsible-header i,
 .sidenav.fixed .collapsible-header i {
   line-height: inherit;
 }

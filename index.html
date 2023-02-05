@@ -3,13 +3,14 @@
   <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
-  <body>
+  <body style="background-image: url(img/background_hyperspace.jpg);  font-family: 'Exo';">
     <!--Navbar-->
     <ul id="dropdown1" class="dropdown-content purple darken-4">
       <li><a href="planets/planet01.html"><span class="white-text text-darken-2"><i class="material-icons left">filter_1</i>Planet 01</span></a></li>
@@ -20,16 +21,18 @@
       <li><a href="planets/planet06.html"><span class="white-text text-darken-2"><i class="material-icons left">filter_6</i>Planet 06</span></a></li>
     </ul>
 
-    <div class="nav-wrapper">
-      <nav class="navbar-fixed black"> 
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper black" style="height: 100px;">
           <a href="index.html" class="responsive-img"><img src="img/logo.png" alt="" style="height: 110%;"></a>
-          <a href="index.html" class="brand-logo center"><img src="img/logo02.png" alt="" style="height: 80px"></a>
+          <a href="index.html" class="responsive-img center"><img src="img/logo02.png" alt="" style="height: 80%"></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">Sobre</a></li>
             <li><a href="contact.html">Contato</a></li>
             <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Destinos<i class="material-icons right">arrow_drop_down</i></a></li>
           </ul>
+        </div>
       </nav>
     </div>
 
@@ -118,6 +121,8 @@
         <p>Dica 3: Procure pesquisar sobre as atrações turísticas e culturais do local antes de viajar para aproveitar ao máximo sua viagem.</p>
       </div>
     </div>
+    
+    
     <!-- Adicionar o footer com informações de contato -->
     <footer class="page-footer black">
       <div class="container">
@@ -144,7 +149,6 @@
         </div>
       </div>
     </footer>
-
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
