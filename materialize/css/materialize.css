@@ -4468,10 +4468,12 @@ nav .input-field label.active i {
   position: relative;
   height: 70px;
   z-index: 997;
+  font-size: 50px;
 }
 
 .navbar-fixed nav {
   position: fixed;
+  font-size: 50px;
 }
 
 @media only screen and (min-width: 601px) {
@@ -8420,7 +8422,10 @@ input[type=range]::-ms-thumb {
 }
 
 .carousel .carousel-item > img {
-  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .carousel .indicators {

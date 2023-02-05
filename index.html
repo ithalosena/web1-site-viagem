@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+      .navbar-fixed nav a {
+        font-size: 20px;
+      }
+      .carousel-text {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 20px;
+      }
+    </style>
+    
   </head>
 
   <body style="background-image: url(img/background_hyperspace.jpg);  font-family: 'Exo';">
@@ -23,7 +38,7 @@
 
     <div class="navbar-fixed">
       <nav>
-        <div class="nav-wrapper black" style="height: 100px;">
+        <div class="nav-wrapper black" style="height: 90px;">
           <a href="index.html" class="responsive-img"><img src="img/logo.png" alt="" style="height: 110%;"></a>
           <a href="index.html" class="responsive-img center"><img src="img/logo02.png" alt="" style="height: 80%"></a>
           <ul class="right hide-on-med-and-down">
@@ -39,29 +54,33 @@
 <!-- copiar ate aqui-->
     
   <!-- Carrossel de Imagens -->
-  <div class="carousel carousel-slider center">
+  <div class="carousel carousel-slider center" data-indicators="true">
     <!-- Adicionar as imagens ao carrossel -->
-    <div class="carousel-item red white-text" href="#one!">
-      <img src="https://via.placeholder.com/800x400/00bfff/fff?text=Imagem+1" alt="Imagem 1">
-      <h2>Imagem 1</h2>
-      <p class="white-text">Descrição da imagem 1</p>
+    <div class="carousel-item black white-text flow-text" href="#one!">
+      <div class="carousel-text">
+        <h1>CONHEÇA NOVOS MUNDOS</h1>
+      </div>
+      <img src="img/carousel01.png" alt="Imagem 1">
     </div>
-    <div class="carousel-item amber white-text" href="#two!">
-      <img src="https://via.placeholder.com/800x400/00bfff/fff?text=Imagem+2" alt="Imagem 2">
-      <h2>Imagem 2</h2>
-      <p class="white-text">Descrição da imagem 2</p>
+    <div class="carousel-item black white-text flow-text" href="#two!">
+      <img src="img/carousel03.png" alt="Imagem 2">
+      <div class="carousel-text">
+        <h1>EXPLORE O INEXPLORÁVEL</h1>
+      </div>
     </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <img src="https://via.placeholder.com/800x400/00bfff/fff?text=Imagem+3" alt="Imagem 3">
-      <h2>Imagem 3</h2>
-      <p class="white-text">Descrição da imagem 3</p>
+    <div class="carousel-item black white-text flow-text" href="#three!">
+      <img src="img/carousel02.png" alt="Imagem 3">
+      <div class="carousel-text">
+        <h1>SEJA UM PIONEIRO ESPACIAL</h1>
+      </div>
     </div>
   </div>
+
   <!-- Seção de pacotes de viagem -->
-  <div class="container">
+  <div class="container grey darken-4">
       <div class="section">  
       <!-- Adicionar título a seção -->
-      <h3 class="center-align">Pacotes de viagem</h3>
+      <h3 class="center-align white-text" >Pacotes de viagem</h3>
 
       <!-- Adicionar cards com as informações dos pacotes -->
       <div class="row">
@@ -113,7 +132,7 @@
 
 
     <!-- Adicionar título a seção de dicas -->
-    <h3 class="center-align">Dicas de viagem</h3>
+    <h3 class="center-align white-text">Dicas de viagem</h3>
     <!-- Adicionar uma div com as dicas -->
     <div class="row">
       <div class="col s12">
