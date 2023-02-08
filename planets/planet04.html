@@ -1,37 +1,163 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    .navbar-fixed nav a {
+      font-size: 20px;
+    }
+    .carousel-text {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+    }
+  </style>
+</head>
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-
-  <body>
-    
-    <nav> 
-      <div class="nav-wrapper deep-purple accent-3">
-        <a href="img/logo.png" class="brand-logo-4"><img src="img/logo.png" alt="" class="circle responsive-img" style="height: 200px"></a>
+<body style="background-image: url(img/background_hyperspace.jpg);  font-family: 'Exo';">
+ 
+  <!--Navbar-->
+  <div class="navbar-fixed">
+    <ul id="dropdown1" class="dropdown-content purple darken-4">
+      <li><a href="planets/planet01.html"><span class="white-text text-darken-2">Krypton</span></a></li>
+      <li><a href="planets/planet02.html"><span class="white-text text-darken-2">Oa</span></a></li>
+      <li><a href="planets/planet03.html"><span class="white-text text-darken-2">Planet 03</span></a></li>
+      <li><a href="planets/planet04.html"><span class="white-text text-darken-2">Proxima Centauri B</span></a></li>
+      <li><a href="planets/planet05.html"><span class="white-text text-darken-2">Lua</span></a></li>
+      <li><a href="planets/planet06.html"><span class="white-text text-darken-2">Marte</span></a></li>
+    </ul>
+    <nav>
+      <div class="nav-wrapper black" style="height: 90px;">
+        <a href="index.html" class="responsive-img"><img src="../img/logo.png" alt="" style="height: 110%;"></a>
+        <a href="index.html" class="responsive-img center"><img src="../img/logo02.png" alt="" style="height: 90%"></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#"><i class="material-icons left">home</i>Home</a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Destinos</a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Sobre</a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Contato</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../dicas.html">Dicas</a></li>
+          <li><a href="../about.html">Sobre</a></li>
+          <li><a href="../contact.html">Contato</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Destinos<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
-      <div class="nav-content deep-purple accent-3">
-        <span class="nav-title"></span>
-        <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
-          <i class="material-icons"></i>
-        </a>
-      </div>
     </nav>
+  </div>
+  <!-- copiar ate aqui-->
+  <div class="section black">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <img src="../img/proximab.jpg" alt="Paisagem de proxima_centauri" class="responsive-img">
+        </div>
+        <div class="col s12 m8">
+          <h3 class="white-text">Conheça Proxima Centauri B</h3>
+          <h5 class="white-text">Proxima Centauri b é uma exoplaneta localizada a aproximadamente 4,24 anos-luz da Terra, orbitando a estrela Proxima Centauri. É uma das exoplanetas mais próximas do nosso sistema solar e está localizada na zona habitável de sua estrela, o que significa que sua temperatura pode ser propícia para a vida.</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <h4 class="white-text">Vantagens de visitar Proxima Centauri B</h4>
+          <p class="flow-text white-text">Ser o primeiro: Proxima Centauri b é o primeiro destino interestelar para viagens turísticas, tornando os visitantes parte da história da exploração do espaço.</p>
+          <p class="flow-text white-text">Descoberta científica: Como uma das exoplanetas mais próximas de nós, visitar Proxima Centauri b permitirá aos turistas ver de perto as últimas descobertas científicas sobre a exoplaneta e ajudar a entender ainda mais sobre o universo.</p>
+          <p class="flow-text white-text">Beleza natural: Proxima Centauri b tem paisagens e cenários únicos e espetaculares, já que é uma exoplaneta completamente desconhecida e ainda pouco explorada.</p>
+          <p class="flow-text white-text">Experiência única: Visitando Proxima Centauri b é uma oportunidade única de ter uma visão pessoal da vida em outro planeta e explorar um ambiente completamente diferente da Terra.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section red darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <img src="../img/proxima_centauri.jpg" alt="Imagem de Proxima Centauri" class="responsive-img" >
+        </div>
+        <div class="col s12 m6">
+          <p class="flow-text white-text">Proxima Centauri b é uma exoplaneta localizada em torno da estrela Proxima Centauri, que é a estrela mais próxima do nosso sistema solar. Proxima Centauri está situada a cerca de 4,24 anos-luz da Terra, no signo de Centauro.</p>
+          <h5 class="white-text">Paisagem única de Proxima Centauri B</h5>
+          <p class="grey-text text-lighten-4"> a paisagem de Proxima Centauri b é totalmente diferente de tudo que já vimos, com uma combinação de elementos estranhos e surpreendentes. Contendo oceanos alienígenas, montanhas rochosas, vales profundos e muito mais.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section black">
+    <div class="container">
+      <h3 class="center-align white-text"> Principais Atrações turísticas de Proxima Centauri B</h3>
+      <p class="flow-text center-align white-text">Algumas das principais atrações turísticas de Proxima Centauri B incluem:</p>
+      <div class="row">
+        <!-- Adicionar informações sobre o Sol Vermelho de Krypton -->
+        <div class="col s12 m6">
+          <h5 class="white-text">Oceanos alienígenas</h5>
+          <p class="grey-text text-lighten-4"> Os Oceanos alienígenas de Proxima Centauri B são uma atração turística incrível, oferecendo aos viajantes a oportunidade de nadar em águas desconhecidas e talvez até mesmo avistar formas de vida extraterrestre.</p>
+        </div>
+        <div class="col s12 m6">
+          <img src="../img/oceano.jpg" alt="oceanos alienígenas" class="responsive-img">
+        </div>
+        <div class="col s12 m6">
+          <img src="../img/proximab2.jpg" alt="paisagens estrangeiras" class="responsive-img">
+        </div>
+        <div class="col s12 m6">
+          <h5 class="white-text">Paisagens Estrangeiras</h5>
+          <p class="grey-text text-lighten-4">A paisagem de Proxima Centauri b é completamente diferente da Terra, oferecendo uma vista inacreditável de montanhas, vales, desertos e muito mais.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="fixed-action-btn"><a class="waves-effect waves-light btn-large white-text red darken-4" href="../form_request.html">
+    <span style="width: 150px;">Consulte disponibilidade</span>
+  </a>
+
+  </div>
+    <!-- Adicione um rodapé à página -->
+    <footer class="page-footer grey darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col s6 m4">
+            <h5 class="white-text">Nossa Agência</h5>
+            <p class="grey-text text-lighten-4">Nossa agência é líder em viagens ao espaço, oferecemos aos
+              nossos clientes a experiência mais segura e incrível possível.</p>
+          </div>
+          <div class="col s6 m1"></div>
+          <div class="col s6 m5">
+            <h5 class="white-text">Contato</h5>
+            <p class="grey-text text-lighten-4">Telefone: (00) 0000-0000</p>
+            <p class="grey-text text-lighten-4">E-mail: contato@agenciaviagem.com.br</p>
+          </div>
+          <div class="col s6 m2">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Sobre nós</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Pacotes</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Dicas</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright black">
+        <div class="container center-align">
+          © 2023 BEYOND HORIZONS | Agência de Viagens Interplanetaria
+        </div>
+      </div>
+    </footer>
+
     <!--JavaScript at end of body for optimized loading-->
-    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </body>
+    <script src="materialize/js/materialize.js"></script>
+    <!-- Custon JS-->
+    <script src="materialize/js/person.js"></script>
+</body>
 </html>
