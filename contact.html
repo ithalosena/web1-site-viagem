@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body style="background-image: url(img/background_hyperspace.jpg);  font-family: 'Exo';">
+<body style="background-color:#000;  font-family: 'Exo';">
   <!--Navbar-->
   <div class="navbar-fixed">
     <ul id="dropdown1" class="dropdown-content purple darken-4">
@@ -45,47 +45,58 @@
   <div class="section">
     <h3 class="center-align white-text">Contatos</h3>
 
-    <!-- Adicionar as informações de contato -->
-    <div class="container">
-      <p class="white-text">Email: contato@agencia.com</p>
-      <p class="white-text">Telefone: (11) 1234-5678</p>
-      <p class="white-text">WhatsApp: (11) 98765-4321</p>
-      <p class="white-text">Telegram: @agencia</p>
-      <p class="white-text">Instagram: @agenciaviagens</p>
-      <p class="white-text">Facebook: agenciaviagens </p>
-    </div>
-  </div>
-  </div>
-  <!-- Adicionar o mapa do Google -->
-  <div class="container">
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .formulario{
+            height:500px ;
+            width: 800px ;
+        }
+        
+    </style>
+
+        <div class="container">
+            <div class="formulario" >
+                <form>
+                  <div class="input-field">
+                    <input id="nome" type="text" class="validate">
+                    <label for="nome">Nome</label>
+                  </div>
+                  <div class="input-field">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="input-field">
+                    <input id="telefone" type="text" class="validate">
+                    <label for="telefone">Telefone</label>
+                  </div>
+                  <div class="input-field">
+                    <textarea id="mensagem" class="materialize-textarea"></textarea>
+                    <label for="mensagem">Mensagem</label>
+                  </div>
+                  <button class="btn waves-effect waves-light" type="submit">Enviar</button>
+                </form>
+            </div>
+    
+            <div class="dados">
+                <p class="white-text">Email: contato@agencia.com</p>
+                <p class="white-text">Telefone: (11) 1234-5678</p>
+                <p class="white-text">WhatsApp: (11) 98765-4321</p>
+                <p class="white-text">Telegram: @agencia</p>
+                <p class="white-text">Instagram: @agenciaviagens</p>
+                <p class="white-text">Facebook: agenciaviagens </p>
+            </div>
+        </div>
+   <!-- Adicionar o mapa do Google -->
+
+   <div class="container">
     <iframe src="https://maps.google.com/maps?q=Agencia+de+Viagens&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%"
       height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
   </div>
 
-  <!-- Adicionar o formulário de contato -->
-  <div class="container">
-    <form>
-      <div class="input-field">
-        <input id="nome" type="text" class="validate">
-        <label for="nome">Nome</label>
-      </div>
-      <div class="input-field">
-        <input id="email" type="email" class="validate">
-        <label for="email">Email</label>
-      </div>
-      <div class="input-field">
-        <input id="telefone" type="text" class="validate">
-        <label for="telefone">Telefone</label>
-      </div>
-      <div class="input-field">
-        <textarea id="mensagem" class="materialize-textarea"></textarea>
-        <label for="mensagem">Mensagem</label>
-      </div>
-      <button class="btn waves-effect waves-light" type="submit">Enviar</button>
-    </form>
-  </div>
-
-
+ 
   <!-- Adicionar o footer com informações de contato -->
   <footer class="page-footer black">
     <div class="container">
