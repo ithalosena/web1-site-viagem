@@ -1,37 +1,163 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    .navbar-fixed nav a {
+      font-size: 20px;
+    }
+    .carousel-text {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+    }
+  </style>
+</head>
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-
-  <body>
-    
-    <nav> 
-      <div class="nav-wrapper deep-purple accent-3">
-        <a href="img/logo.png" class="brand-logo-4"><img src="img/logo.png" alt="" class="circle responsive-img" style="height: 200px"></a>
+<body style="background-image: url(img/background_hyperspace.jpg);  font-family: 'Exo';">
+ 
+  <!--Navbar-->
+  <div class="navbar-fixed">
+    <ul id="dropdown1" class="dropdown-content purple darken-4">
+      <li><a href="planets/planet01.html"><span class="white-text text-darken-2">Krypton</span></a></li>
+      <li><a href="planets/planet02.html"><span class="white-text text-darken-2">Planet 02</span></a></li>
+      <li><a href="planets/planet03.html"><span class="white-text text-darken-2">Planet 03</span></a></li>
+      <li><a href="planets/planet04.html"><span class="white-text text-darken-2">Planet 04</span></a></li>
+      <li><a href="planets/planet05.html"><span class="white-text text-darken-2">Planet 05</span></a></li>
+      <li><a href="planets/planet06.html"><span class="white-text text-darken-2">Planet 06</span></a></li>
+    </ul>
+    <nav>
+      <div class="nav-wrapper black" style="height: 90px;">
+        <a href="index.html" class="responsive-img"><img src="../img/logo.png" alt="" style="height: 110%;"></a>
+        <a href="index.html" class="responsive-img center"><img src="../img/logo02.png" alt="" style="height: 90%"></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#"><i class="material-icons left">home</i>Home</a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Destinos</a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Sobre</a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Contato</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../dicas.html">Dicas</a></li>
+          <li><a href="../about.html">Sobre</a></li>
+          <li><a href="../contact.html">Contato</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Destinos<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
-      <div class="nav-content deep-purple accent-3">
-        <span class="nav-title"></span>
-        <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
-          <i class="material-icons"></i>
-        </a>
-      </div>
     </nav>
+  </div>
+  <!-- copiar ate aqui-->
+  <div class="section black">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <img src="../img/Marte-e-Terra.jpg" alt="Paisagem de Marte" class="responsive-img">
+        </div>
+        <div class="col s12 m8">
+          <h3 class="white-text">Conheça Marte</h3>
+          <h5 class="white-text">Marte é um destino incrível para viajantes aventureiros. Conhecido como o "Planeta Vermelho", Marte tem uma paisagem única e é um dos destinos mais procurados para viagens interestelares. Com uma temperatura média de -63°C, é importante se preparar para as condições climáticas adversas. No entanto, a paisagem é composta por montanhas altas, crateras e planícies, oferecendo vistas espetaculares para os viajantes.</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <h4 class="white-text">Vantagens de visitar Marte</h4>
+          <p class="flow-text white-text">Experiência única: Uma viagem a Marte é uma oportunidade única de explorar um mundo completamente diferente e viver uma aventura fora da atmosfera terrestre.</p>
+          <p class="flow-text white-text">Conexão com o universo: Uma viagem a Marte pode ajudar a ampliar a nossa compreensão do universo e de nosso lugar nele.</p>
+          <p class="flow-text white-text">Possibilidade de pesquisa científica: Marte é um dos alvos mais importantes da pesquisa científica, com vários projetos em andamento para estudar sua geologia, clima e potencial habitabilidade.</p>
+          <p class="flow-text white-text">Desafio emocionante: Viajar a Marte é um desafio emocionante e inesquecível, oferecendo uma oportunidade única para testar nossos limites e ampliar nossa perspectiva.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section orange darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <img src="../img/paisagem.jpg" alt="Imagem do Planeta Marte" class="responsive-img" >
+        </div>
+        <div class="col s12 m6">
+          <p class="flow-text white-text">Marte é o quarto planeta a partir do Sol e é localizado na nossa sistema solar. Está a cerca de 140 milhões de quilômetros da Terra e é o segundo planeta mais próximo do Sol, depois de Vênus.</p>
+          <h5 class="white-text">Paisagem única de Marte</h5>
+          <p class="grey-text text-lighten-4">Marte tem uma paisagem única e deslumbrante, composta por montanhas altas, crateras e planícies.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section black">
+    <div class="container">
+      <h3 class="center-align white-text"> Principais Atrações turísticas de Marte</h3>
+      <p class="flow-text center-align white-text">Marte é um destino turístico popular para viajantes interessados em viagens interestelares e oferece muitas atrações únicas. Algumas das principais atrações turísticas incluem:</p>
+      <div class="row">
+        <!-- Adicionar informações sobre o Sol Vermelho de Krypton -->
+        <div class="col s12 m6">
+          <h5 class="white-text">Vale Marineris</h5>
+          <p class="grey-text text-lighten-4">O Vale Marineris é uma atração turística única em Marte e é conhecido por sua imensidão e beleza espetacular. Além disso, o Vale Marineris também oferece aos turistas a oportunidade de aprender sobre a geologia e a história do planeta. Com paredes altas que chegam a 7 km de altura e extensões que se estendem por mais de 4.000 km.</p>
+        </div>
+        <div class="col s12 m6">
+          <img src="../img/valemarineris.jpg" alt="Vale Marineris" class="responsive-img">
+        </div>
+        <div class="col s12 m6">
+          <img src="../img/monte_olympus.jpg" alt="Monte Olympus" class="responsive-img">
+        </div>
+        <div class="col s12 m6">
+          <h5 class="white-text">Monte Olympus</h5>
+          <p class="grey-text text-lighten-4">O Monte Olympus é a atração turística mais alta de Marte e oferece uma vista panorâmica espetacular da superfície do planeta. Além disso, o Monte Olympus também é uma oportunidade única para os aventureiros de desafiar suas habilidades em escaladas em condições adversas. Com mais de 22 km de altura, o Monte Olympus é o ponto culminante de Marte e um dos maiores vulcões do sistema solar. Sua altitude e localização única também oferecem uma visão privilegiada da atmosfera de Marte e da geologia do planeta. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="fixed-action-btn"><a class="waves-effect waves-light btn-large white-text red darken-4" href="../form_request.html">
+    <span style="width: 150px;">Consulte disponibilidade</span>
+  </a>
+
+  </div>
+    <!-- Adicione um rodapé à página -->
+    <footer class="page-footer grey darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col s6 m4">
+            <h5 class="white-text">Nossa Agência</h5>
+            <p class="grey-text text-lighten-4">Nossa agência é líder em viagens ao espaço, oferecemos aos
+              nossos clientes a experiência mais segura e incrível possível.</p>
+          </div>
+          <div class="col s6 m1"></div>
+          <div class="col s6 m5">
+            <h5 class="white-text">Contato</h5>
+            <p class="grey-text text-lighten-4">Telefone: (00) 0000-0000</p>
+            <p class="grey-text text-lighten-4">E-mail: contato@agenciaviagem.com.br</p>
+          </div>
+          <div class="col s6 m2">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Sobre nós</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Pacotes</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Dicas</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright black">
+        <div class="container center-align">
+          © 2023 BEYOND HORIZONS | Agência de Viagens Interplanetaria
+        </div>
+      </div>
+    </footer>
+
     <!--JavaScript at end of body for optimized loading-->
-    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </body>
+    <script src="materialize/js/materialize.js"></script>
+    <!-- Custon JS-->
+    <script src="materialize/js/person.js"></script>
+</body>
 </html>
