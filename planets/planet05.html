@@ -1,37 +1,166 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    .navbar-fixed nav a {
+      font-size: 20px;
+    }
+    .carousel-text {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+    }
+  </style>
+</head>
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-
-  <body>
-    
-    <nav> 
-      <div class="nav-wrapper deep-purple accent-3">
-        <a href="img/logo.png" class="brand-logo-4"><img src="img/logo.png" alt="" class="circle responsive-img" style="height: 200px"></a>
+<body style="background-image: url(img/background_hyperspace.jpg);  font-family: 'Exo';">
+ 
+  <!--Navbar-->
+  <div class="navbar-fixed">
+    <ul id="dropdown1" class="dropdown-content purple darken-4">
+      <li><a href="planets/planet01.html"><span class="white-text text-darken-2">Krypton</span></a></li>
+      <li><a href="planets/planet02.html"><span class="white-text text-darken-2">Planet 02</span></a></li>
+      <li><a href="planets/planet03.html"><span class="white-text text-darken-2">Planet 03</span></a></li>
+      <li><a href="planets/planet04.html"><span class="white-text text-darken-2">Planet 04</span></a></li>
+      <li><a href="planets/planet05.html"><span class="white-text text-darken-2">Lua</span></a></li>
+      <li><a href="planets/planet06.html"><span class="white-text text-darken-2">Marte</span></a></li>
+    </ul>
+    <nav>
+      <div class="nav-wrapper black" style="height: 90px;">
+        <a href="index.html" class="responsive-img"><img src="../img/logo.png" alt="" style="height: 110%;"></a>
+        <a href="index.html" class="responsive-img center"><img src="../img/logo02.png" alt="" style="height: 90%"></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#"><i class="material-icons left">home</i>Home</a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Destinos</a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Sobre</a></li>
-          <li><a href="#"><i class="material-icons left">home</i>Contato</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../dicas.html">Dicas</a></li>
+          <li><a href="../about.html">Sobre</a></li>
+          <li><a href="../contact.html">Contato</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Destinos<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
-      <div class="nav-content deep-purple accent-3">
-        <span class="nav-title"></span>
-        <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
-          <i class="material-icons"></i>
-        </a>
-      </div>
     </nav>
+  </div>
+  <!-- copiar ate aqui-->
+  <div class="section black">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <img src="../img/moon.webp" alt="Paisagem da Lua" class="responsive-img">
+        </div>
+        <div class="col s12 m8">
+          <h3 class="white-text">Conheça a Lua</h3>
+          <h5 class="white-text">A Lua é o satélite natural da Terra e é o objeto mais visível no céu noturno. Com a Beyond Horizon, você pode visitar a Lua e explorar esse destino incrível. A Lua é conhecida por sua paisagem única, composta por montanhas, crateras, planícies e vallis (vales largos e profundos). Além disso, a Lua é o destino perfeito para aventureiros e exploradores, oferecendo a oportunidade de caminhar em sua superfície e descobrir sua geologia e história.</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <h4 class="white-text">Vantagens de visitar a Lua</h4>
+          <p class="flow-text white-text">Experiência única: Visitando a Lua, você terá a oportunidade de experimentar uma viagem interplanetária e caminhar na superfície de um satélite natural.</p>
+          <p class="flow-text white-text">Aprendizado científico: A Lua é um destino rico em história e geologia, oferecendo aos visitantes a oportunidade de aprender sobre a evolução do sistema solar e da Terra.</p>
+          <p class="flow-text white-text">Aventura: A superfície da Lua é ideal para aventuras e explorações, com suas paisagens únicas, montanhas, crateras, planícies e vallis (vales largos e profundos).</p>
+          <p class="flow-text white-text">Visibilidade: A Lua é o objeto mais visível no céu noturno, oferecendo uma visão espetacular da Terra e das estrelas.</p>
+          <p class="flow-text white-text">Conquista pessoal: Visitando a Lua, você poderá dizer que é um dos poucos viajantes a visitar esse destino incrível e conquistar uma experiência única em sua vida.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section grey darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <img src="../img/paisagemnalua.jpg" alt="Imagem do Planeta Marte" class="responsive-img" >
+        </div>
+        <div class="col s12 m6">
+          <p class="flow-text white-text">A Lua é o satélite natural da Terra e está localizada a cerca de 384.400 km da Terra. A Lua é a quinta maior lua do Sistema Solar e é a segunda maior lua em relação ao tamanho do seu planeta anfitrião, comparada apenas ao satélite de Júpiter, Ganymede. A Lua é visível do solo terrestre e é o objeto mais visível no céu noturno.</p>
+          <h5 class="white-text">Paisagem única da Lua</h5>
+          <p class="grey-text text-lighten-4">A paisagem da Lua é única e impressionante. Ela é marcada por montanhas, crateras, vallis, planícies e outras formações geológicas. A superfície da Lua é impactada por muitos eventos, como colisões com corpos celestes e erupções vulcânicas, o que resultou em uma paisagem distinta e interessante.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section black">
+    <div class="container">
+      <h3 class="center-align white-text"> Principais Atrações turísticas da Lua</h3>
+      <p class="flow-text center-align white-text">Algumas das principais atrações turísticas da Lua incluem:</p>
+      <div class="row">
+        <!-- Adicionar informações sobre o Sol Vermelho de Krypton -->
+        <div class="col s12 m6">
+          <h5 class="white-text">Cratera Tycho</h5>
+          <p class="grey-text text-lighten-4">A Cratera Tycho é uma das mais impressionantes crateras da Lua. Ela tem aproximadamente 85 km de diâmetro e está localizada na região sul da Lua. A Cratera Tycho é conhecida por sua estrutura central distinta e por seu anel de material expelido, que foi projetado ao redor da cratera durante a colisão que causou sua formação. Além disso, a Cratera Tycho é uma das poucas crateras na Lua que possui uma estrutura central de material mais jovem, indicando atividade geológica recente.</p>
+        </div>
+        <div class="col s12 m6">
+          <img src="../img/tycho.jpg" alt="cratera tycho" class="responsive-img">
+        </div>
+        <div class="col s12 m6">
+          <img src="../img/valis.jpg_large" alt="vallis alpes" class="responsive-img">
+        </div>
+        <div class="col s12 m6">
+          <h5 class="white-text">Vallis Alpes</h5>
+          <p class="grey-text text-lighten-4">O Vallis Alpes é um dos vallis mais conhecidos da Lua. Ele é uma estrutura estreita e profunda que atravessa a superfície lunar, com paredes altas e esculpidas. O Vallis Alpes tem aproximadamente 200 km de comprimento e é uma das muitas estruturas que foram formadas pelo impacto de corpos celestes na superfície da Lua.
+
+            A paisagem ao redor do Vallis Alpes é única e impressionante, oferecendo uma vista espetacular da superfície lunar. Além disso, o Vallis Alpes é um local popular para astrônomos e turistas, que desfrutam de sua beleza e curiosidade científica. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="fixed-action-btn"><a class="waves-effect waves-light btn-large white-text red darken-4" href="../form_request.html">
+    <span style="width: 150px;">Consulte disponibilidade</span>
+  </a>
+
+  </div>
+    <!-- Adicione um rodapé à página -->
+    <footer class="page-footer grey darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col s6 m4">
+            <h5 class="white-text">Nossa Agência</h5>
+            <p class="grey-text text-lighten-4">Nossa agência é líder em viagens ao espaço, oferecemos aos
+              nossos clientes a experiência mais segura e incrível possível.</p>
+          </div>
+          <div class="col s6 m1"></div>
+          <div class="col s6 m5">
+            <h5 class="white-text">Contato</h5>
+            <p class="grey-text text-lighten-4">Telefone: (00) 0000-0000</p>
+            <p class="grey-text text-lighten-4">E-mail: contato@agenciaviagem.com.br</p>
+          </div>
+          <div class="col s6 m2">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Sobre nós</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Pacotes</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Dicas</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright black">
+        <div class="container center-align">
+          © 2023 BEYOND HORIZONS | Agência de Viagens Interplanetaria
+        </div>
+      </div>
+    </footer>
+
     <!--JavaScript at end of body for optimized loading-->
-    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </body>
+    <script src="materialize/js/materialize.js"></script>
+    <!-- Custon JS-->
+    <script src="materialize/js/person.js"></script>
+</body>
 </html>
